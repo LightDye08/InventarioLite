@@ -1,0 +1,8 @@
+/home/LightDye/Documents/Code/ProductosApp/backend/obj/Debug/net10.0/backend.csproj.AssemblyReference.cache
+/home/LightDye/Documents/Code/ProductosApp/backend/obj/Debug/net10.0/rpswa.dswa.cache.json
+/home/LightDye/Documents/Code/ProductosApp/backend/obj/Debug/net10.0/backend.GeneratedMSBuildEditorConfig.editorconfig
+/home/LightDye/Documents/Code/ProductosApp/backend/obj/Debug/net10.0/backend.AssemblyInfoInputs.cache
+/home/LightDye/Documents/Code/ProductosApp/backend/obj/Debug/net10.0/backend.AssemblyInfo.cs
+/home/LightDye/Documents/Code/ProductosApp/backend/obj/Debug/net10.0/backend.csproj.CoreCompileInputs.cache
+/home/LightDye/Documents/Code/ProductosApp/backend/obj/Debug/net10.0/backend.MvcApplicationPartsAssemblyInfo.cs
+/home/LightDye/Documents/Code/ProductosApp/backend/obj/Debug/net10.0/backend.MvcApplicationPartsAssemblyInfo.cache
