@@ -1,0 +1,119 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    padding: 40px;
+}
+
+/* Títulos */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+/* Formulario */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    max-width: 400px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botón principal */
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background-color: #2c7be5;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1a68d1;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+th {
+    background-color: #2c7be5;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+/* Filas hover */
+tr:hover {
+    background-color: #f2f6ff;
+}
+
+/* Botones */
+button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Botón editar */
+button:first-child {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Botón eliminar */
+button:last-child {
+    background-color: #dc3545;
+    color: white;
+}
+
+button:first-child:hover {
+    background-color: #218838;
+}
+
+button:last-child:hover {
+    background-color: #c82333;
+}
