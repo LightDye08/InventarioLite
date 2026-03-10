@@ -6,6 +6,7 @@
 - SQLite (no requiere instalación, se usa archivo .db)
 
 ## Instrucciones para ejecutar el backend
+
 1. Ve a la carpeta `backend`:
    ```sh
    cd backend
@@ -23,6 +24,7 @@
    El backend estará disponible en `http://localhost:5000`.
 
 ## Cómo ejecutar el frontend
+
 1. Ve a la carpeta `frontend`:
    ```sh
    cd frontend
@@ -34,6 +36,7 @@
 3. Abre tu navegador y accede a [http://localhost:8080](http://localhost:8080)
 
 ## Cómo ejecutar el script en Python
+
 1. Ve a la carpeta `scripts`:
    ```sh
    cd scripts
