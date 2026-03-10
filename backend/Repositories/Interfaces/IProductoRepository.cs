@@ -1,4 +1,5 @@
 using ProductosApp.Models;
+using ProductosApp.DTOs;
 
 namespace ProductosApp.Repositories.Interfaces
 {
