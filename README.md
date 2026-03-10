@@ -1,4 +1,4 @@
-# ProductosApp
+# InventarioLite
 
 ## Requisitos previos
 - .NET 8 SDK y Runtime
