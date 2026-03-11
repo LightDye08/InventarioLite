@@ -15,6 +15,7 @@
    ```sh
    dotnet restore
    export PATH="$PATH:$HOME/.dotnet/tools"  # Si usas dotnet-ef
+   dotnet ef migrations add InitialCreate #No es necesario pero puede ser util en ciertas versiones de Dotnet 8
    dotnet ef database update
    ```
 3. Ejecuta el backend:
