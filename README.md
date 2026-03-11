@@ -83,3 +83,7 @@ ProductosApp/
 - El backend expone la API REST y usa SQLite como base de datos.
 - El frontend consume la API y permite gestionar productos.
 - Los scripts Python permiten importar desde CSV y exportar a JSON.
+
+## Video de demostración del funcionamiento del proyecto.
+
+https://github.com/user-attachments/assets/b5a7c553-162e-4df3-8d1e-fbf9a2bc1613
