@@ -1,66 +1,111 @@
-# InventarioLite
+# InventarioLite (Inventory Lite)
 
-## Requisitos previos
-- .NET 8 SDK y Runtime
-- Python 3.8 o superior (para scripts y servidor simple del frontend)
-- SQLite (no requiere instalación, se usa archivo .db)
+## About the Project
 
-## Instrucciones para ejecutar el backend
+**InventarioLite (Inventory Lite)** is a lightweight inventory management system designed to manage products in a simple and efficient way.
 
-1. Ve a la carpeta `backend`:
+It follows a full-stack structure:
+
+* A **.NET 8 REST API backend** that handles business logic and data persistence.
+* A **minimal frontend** built with plain HTML, CSS, and JavaScript to interact with the API.
+* **Python scripts** for importing and exporting product data.
+
+This project is ideal for learning purposes, small-scale inventory systems, or as a base template for more advanced applications.
+
+---
+
+## Prerequisites
+
+* .NET 8 SDK and Runtime
+* Python 3.8 or higher (for scripts and frontend server)
+* SQLite (no installation required, uses a `.db` file)
+
+---
+
+## Running the Backend
+
+1. Navigate to the `backend` folder:
+
    ```sh
    cd backend
    ```
-2. Restaura los paquetes y aplica las migraciones:
+
+2. Restore packages and apply migrations:
+
    ```sh
    dotnet restore
-   export PATH="$PATH:$HOME/.dotnet/tools"  # Si usas dotnet-ef
-   dotnet ef migrations add InitialCreate #No es necesario pero puede ser util en ciertas versiones de Dotnet 8
-   dotnet add package Swashbuckle.AspNetCore #Opcional ya que hay algunas instalaciones que no traen dicho paquete.
+   export PATH="$PATH:$HOME/.dotnet/tools"  # If using dotnet-ef
+   dotnet ef migrations add InitialCreate # Not required, but useful in some .NET 8 setups
+   dotnet add package Swashbuckle.AspNetCore # Optional, some installations may not include it
    dotnet ef database update
    ```
-3. Ejecuta el backend:
+
+3. Run the backend:
+
    ```sh
    dotnet run
    ```
-   El backend estará disponible en `http://localhost:5000`.
 
-## Cómo ejecutar el frontend
+   The backend will be available at:
+   `http://localhost:5000`
 
-1. Ve a la carpeta `frontend`:
+---
+
+## Running the Frontend
+
+1. Navigate to the `frontend` folder:
+
    ```sh
    cd frontend
    ```
-2. Ejecuta el servidor simple con Python:
+
+2. Run the simple Python server:
+
    ```sh
    python servidor_frontend.py
    ```
-3. Abre tu navegador y accede a [http://localhost:8080](http://localhost:8080)
 
-## Cómo ejecutar el script en Python
+3. Open your browser and go to:
+   [http://localhost:8080](http://localhost:8080)
 
-1. Ve a la carpeta `scripts`:
+---
+
+## Running Python Scripts
+
+1. Navigate to the `scripts` folder:
+
    ```sh
    cd scripts
    ```
-2. Instala las dependencias si es necesario:
+
+2. Install dependencies if needed:
+
    ```sh
    pip install requests
    ```
-3. Para exportar productos a JSON:
+
+3. Export products to JSON:
+
    ```sh
    python exportar_productos.py
    ```
-4. Para importar productos desde un CSV (debes crear el script `importar_productos.py`):
+
+4. Import products from a CSV file (you need to create this script):
+
    ```sh
    python importar_productos.py
    ```
-   El CSV debe tener las columnas: `Nombre,Precio`.
 
-## Estructura del proyecto
+   The CSV file must include the following columns:
+   `Nombre,Precio` (Name, Price)
+
+---
+
+## Project Structure
+
 ```
 ProductosApp/
-├── backend/         # API REST en .NET 8 (C#)
+├── backend/         # .NET 8 REST API (C#)
 │   ├── Controllers/
 │   ├── Data/
 │   ├── DTOs/
@@ -70,20 +115,30 @@ ProductosApp/
 │   ├── appsettings.json
 │   ├── Program.cs
 │   └── ...
-├── frontend/        # HTML, CSS y JS nativo
+├── frontend/        # Plain HTML, CSS, and JavaScript
 │   ├── index.html
 │   ├── app.js
 │   └── servidor_frontend.py
-├── scripts/         # Scripts Python para importar/exportar productos
+├── scripts/         # Python scripts for import/export
 │   ├── exportar_productos.py
-│   └── importar_productos.py (a crear)
+│   └── importar_productos.py (to be created)
 └── README.md
 ```
 
-- El backend expone la API REST y usa SQLite como base de datos.
-- El frontend consume la API y permite gestionar productos.
-- Los scripts Python permiten importar desde CSV y exportar a JSON.
+---
 
-## Video de demostración del funcionamiento del proyecto.
+## Architecture Overview
 
-https://github.com/user-attachments/assets/b5a7c553-162e-4df3-8d1e-fbf9a2bc1613
+* The **backend** exposes a REST API and uses SQLite as the database.
+* The **frontend** consumes the API and allows product management.
+* The **Python scripts** enable importing from CSV and exporting to JSON.
+
+---
+
+## Demo Video
+
+[https://github.com/user-attachments/assets/b5a7c553-162e-4df3-8d1e-fbf9a2bc1613](https://github.com/user-attachments/assets/b5a7c553-162e-4df3-8d1e-fbf9a2bc1613)
+
+---
+
+If you want, I can also make it more “GitHub attractive” (badges, screenshots section, API endpoints, etc.) or tailor it for recruiters.
