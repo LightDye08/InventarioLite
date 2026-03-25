@@ -140,5 +140,3 @@ ProductosApp/
 [https://github.com/user-attachments/assets/b5a7c553-162e-4df3-8d1e-fbf9a2bc1613](https://github.com/user-attachments/assets/b5a7c553-162e-4df3-8d1e-fbf9a2bc1613)
 
 ---
-
-If you want, I can also make it more “GitHub attractive” (badges, screenshots section, API endpoints, etc.) or tailor it for recruiters.
